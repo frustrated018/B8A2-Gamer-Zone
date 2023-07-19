@@ -211,10 +211,82 @@ header {
 
 /* Funny videos related css will start here */
 
+.funny-video-section {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.funny-video-section>h2 {
+    margin-bottom: 1rem;
+}
+
+.funny-video-section>p {
+    margin-bottom: 2rem;
+}
+
+.funny-video-cards-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin-right: 3rem;
+    margin-left: 3rem;
+}
+
+.funny-video-card img {
+    width: 100%;
+}
+
+.funny-video-card {
+    width: 23%;
+    border-radius: 1rem;
+}
+
+/* hover related style starts here*/
+.funny-video-image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.hover-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 5px solid #FF42A5;
+    transform: translate(-50%, -50%);
+    background-image: linear-gradient(rgba(22, 21, 21, 0.833), rgba(15, 13, 13, 0.904));
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    display: none;
+}
+
+.hover-text {
+    position: absolute;
+    top: 60%;
+    left: 52.3%;
+    color: #FF42A5;
+    transform: translate(-60%, -50%);
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    pointer-events: none;
+}
+
+.funny-video-image-container:hover .hover-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.funny-video-image-container:hover .hover-text {
+    display: block;
+}
+
 
 /* Funny videos related css will end here */
-
-/* Instant play section related styles */
 
 /* Play instantly section style starts */
 .play-instant-sec {
@@ -353,37 +425,43 @@ header {
     padding-bottom: 2rem;
 }
 
-/* Icons of Games section style starts */
+/* Games genre section style starts */
 .games-genre-section {
-    margin-top: 6rem;
-  }
-  
-  .genre-container {
+    margin-top: 6.5rem;
+}
+
+.genre-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
     align-content: center;
     justify-content: center;
-  }
-  
-  .genre-content {
+    gap: 1.5rem;
+
+}
+
+.genre-container p{
+    font-weight: bold;
+}
+
+.genre-content {
     flex-basis: 17%;
     display: flex;
     align-items: center;
-    gap: .1rem;
+    gap: .5rem;
     border-radius: 3rem;
     padding-left: .5rem;
     padding-right: .5rem;
-  }
-  
-  .genre-content img {
-    width: 1.5rem;
-  }
-  
-  .genre-content:hover {
+}
+
+.genre-content img {
+    width: 2.3rem;
+}
+
+.genre-content:hover {
+    cursor: grab;
     border: 2px solid #FF42A5;
     color: #FF42A5;
-  }
+}
 
 
 /* Footer related styles start here */
@@ -705,7 +783,7 @@ footer small {
     }
 
     /* Funny videos related css will start here */
- 
+
     /* Funny videos related css will end here */
 
     /* Hover related styles */
