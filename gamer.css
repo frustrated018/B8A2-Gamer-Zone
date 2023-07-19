@@ -353,6 +353,39 @@ header {
     padding-bottom: 2rem;
 }
 
+/* Icons of Games section style starts */
+.games-genre-section {
+    margin-top: 6rem;
+  }
+  
+  .genre-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  .genre-content {
+    flex-basis: 17%;
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+    border-radius: 3rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  
+  .genre-content img {
+    width: 1.5rem;
+  }
+  
+  .genre-content:hover {
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+  }
+
+
 /* Footer related styles start here */
 
 .footer-section {
@@ -413,6 +446,8 @@ header {
 footer small {
     font-size: .7rem;
 }
+
+
 
 
 
@@ -667,13 +702,17 @@ footer small {
     .gamer-img {
         width: 100%;
         height: 90%;
-        object-fit: contain;
     }
 
     /* Funny videos related css will start here */
-
-
+ 
     /* Funny videos related css will end here */
+
+    /* Hover related styles */
+
+
+
+    /* Hover related styles end here */
 
 
     /* Play instantly section related styles for tablet */
@@ -765,16 +804,17 @@ footer small {
 
     /* Footer related responsive styles */
 
-    
-  /* Footer Responsive style starts for tablet*/
 
-  .footer-conternt {
-    width: 100%;
-  }
-  .footer-title{
-    display: grid;
-    grid-template-columns: repeat(6, max-content);
-    gap: 1.2rem;
-  }
+    /* Footer Responsive style starts for tablet*/
+
+    .footer-conternt {
+        width: 100%;
+    }
+
+    .footer-title {
+        display: grid;
+        grid-template-columns: repeat(6, max-content);
+        gap: 1.2rem;
+    }
 
 }
