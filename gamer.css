@@ -118,7 +118,59 @@ header {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
+/* Goat banner related styles starts here */
 
+/* .gt-banner-content {
+    background-image: url('./images/Group 14.png'), linear-gradient(223deg, rgba(92, 19, 228, 0.637) 0%, rgba(239, 36, 161, 0.756) 100%);;
+    background-repeat: no-repeat;
+    background-position: left;
+  }
+   */
+.gt-banner-container {
+    display: flex;
+    align-items: center;
+}
+
+.gt-banner-content {
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.gt-img-container img {
+    width: 96%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.gt-img-container {
+    padding: .5rem 1px;
+}
+
+.gt-icon-container {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    margin-bottom: .5rem;
+}
+
+.gt-icon-container img {
+    width: 1rem;
+    height: 1rem;
+}
+
+#btn-blue {
+    background: rgba(78, 197, 247, 1);
+    margin-top: 1rem;
+    margin-left: .1rem;
+}
+
+.gt-banner-content h2+h1 {
+    margin-bottom: 1rem;
+}
+
+
+/* goat banner related styles ends here */
 
 
 /* Responsive styles starts here */
@@ -151,20 +203,20 @@ header {
 
 @media screen and (min-width:576px) and (max-width: 960px) {
     .primary-margin {
-      margin-left: 3rem;
-      margin-right: 3rem;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
-  
+
     /* Nav related styles */
 
-    
+
     .nav-container,
     .list-logo-container {
-      display: flex;
-      flex-direction: column;
+        display: flex;
+        flex-direction: column;
     }
-  
+
     nav ul {
-      padding-left: 0;
+        padding-left: 0;
     }
 }
