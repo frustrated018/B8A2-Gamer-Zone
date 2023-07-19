@@ -219,44 +219,44 @@ header {
 /* Play instantly section style starts */
 .play-instant-sec {
     margin-top: 2rem;
-  }
-  
-  .play-instant-container {
+}
+
+.play-instant-container {
     display: flex;
     align-items: center;
     gap: 7.5rem;
-  }
-  
-  .play-instant-img-container {
+}
+
+.play-instant-img-container {
     width: 70%;
     text-align: right;
     position: relative;
-  }
-  
-  .play-instant-img {
+}
+
+.play-instant-img {
     width: 75%;
-  }
-  
-  .play-instant-contents {
+}
+
+.play-instant-contents {
     text-align: right;
-  }
-  
-  .play-instant-contents h2,
-  .play-instant-contents p {
+}
+
+.play-instant-contents h2,
+.play-instant-contents p {
     padding-left: 45%;
     margin-bottom: 1rem;
-  }
-  
-  .play-instant-absolute-img {
+}
+
+.play-instant-absolute-img {
     position: absolute;
     bottom: -2rem;
     width: 35%
-  }
-  
-  .play-instant-absolute-img img {
+}
+
+.play-instant-absolute-img img {
     width: 100%;
-  }
-  
+}
+
 
 /* play online section related styles */
 .play-online-section {
@@ -310,48 +310,48 @@ header {
 .career-section {
     margin-top: 4rem;
     background-color: #F948B2;
-  }
-  
-  .career-container,
-  .types-towns-container {
+}
+
+.career-container,
+.types-towns-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  }
-  
-  .career-content,
-  .career-img-container {
+}
+
+.career-content,
+.career-img-container {
     width: 50%;
-  }
-  
-  .career-img-container img {
+}
+
+.career-img-container img {
     width: 100%;
-  }
-  
-  .towns {
+}
+
+.towns {
     text-align: right;
-  }
-  
-  .career-content>h2,
-  .career-content>p,
-  .types-towns-container {
+}
+
+.career-content>h2,
+.career-content>p,
+.types-towns-container {
     margin-bottom: 1.5rem;
     color: white;
-  }
-  
-  .types-towns-container p {
+}
+
+.types-towns-container p {
     color: white;
-  }
-  
-  .career-content button {
+}
+
+.career-content button {
     background: white;
     color: #F948B2;
-  }
-  
-  .career-container {
+}
+
+.career-container {
     padding-top: 2rem;
     padding-bottom: 2rem;
-  }
+}
 
 /* Responsive styles starts here */
 
@@ -436,69 +436,90 @@ header {
         flex-direction: column;
         align-items: center;
         gap: 1.5rem;
-      }
-    
-      .play-instant-img-container {
+    }
+
+    .play-instant-img-container {
         width: 100%;
         text-align: right;
-      }
-    
-      .play-instant-img {
+    }
+
+    .play-instant-img {
         width: 75%;
-      }
-      .play-instant-contents {
+    }
+
+    .play-instant-contents {
         text-align: center;
         width: 100%;
-      }
-    
-      .play-instant-contents h2,
-      .play-instant-contents p {
+    }
+
+    .play-instant-contents h2,
+    .play-instant-contents p {
         padding-left: 0;
         margin-bottom: 1rem;
-      }
+    }
 
-      
-      /* Play online section related responsive styles */
 
-      .play-online-container {
+    /* Play online section related responsive styles */
+
+    .play-online-container {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
         gap: 1.5rem;
-      }
-    
-      .play-online-img-container {
+    }
+
+    .play-online-img-container {
         width: 100%;
         text-align: left;
         position: relative;
-      }
-    
-      .play-online-img {
+    }
+
+    .play-online-img {
         width: 80%;
-      }
-    
-      .play-online-content {
+    }
+
+    .play-online-content {
         text-align: center;
-      }
-    
-      .play-online-absolute-img {
+    }
+
+    .play-online-absolute-img {
         position: absolute;
         bottom: -2rem;
         right: 0;
         width: 35%
-      }
-    
-      .play-online-absolute-img img {
-        width: 100%;
-      }
-    
-#play-online-heading{
-    padding-left: 0;
-}
+    }
 
-#play-online-description{
-    padding-left: 0;
-}
+    .play-online-absolute-img img {
+        width: 100%;
+    }
+
+    #play-online-heading {
+        padding-left: 0;
+    }
+
+    #play-online-description {
+        padding-left: 0;
+    }
+
+    /* Career section related responsive styles */
+
+    .career-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .career-content,
+    .career-img-container {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .career-content>h2,
+    .career-content>p {
+        text-align: center;
+    }
+
+
 }
 
 
@@ -580,65 +601,84 @@ header {
         flex-direction: column;
         text-align: center;
         gap: 2rem;
-      }
-    
-      .play-instant-img-container {
+    }
+
+    .play-instant-img-container {
         width: 100%;
         text-align: right;
-      }
-    
-      .play-instant-img {
+    }
+
+    .play-instant-img {
         width: 75%;
-      }
-    
-      .play-instant-contents {
+    }
+
+    .play-instant-contents {
         text-align: center;
         width: 100%;
-      }
-    
-      .play-instant-contents h2,
-      .play-instant-contents p {
+    }
+
+    .play-instant-contents h2,
+    .play-instant-contents p {
         padding-left: 0;
         margin-bottom: 1rem;
-      }
-    
+    }
 
-      /* Play online section related styles for tablet */
 
-      .play-online-container {
+    /* Play online section related styles for tablet */
+
+    .play-online-container {
         display: flex;
         flex-direction: column-reverse;
         text-align: center;
         gap: 2rem;
-      }
-    
-      .play-online-img-container {
+    }
+
+    .play-online-img-container {
         width: 100%;
         text-align: left;
         position: relative;
-      }
-    
-      .play-online-img {
+    }
+
+    .play-online-img {
         width: 80%;
-      }
-    
-      .play-online-content {
+    }
+
+    .play-online-content {
         text-align: center;
-      }
-    
-      .play-online-absolute-img {
+    }
+
+    .play-online-absolute-img {
         position: absolute;
         bottom: -2rem;
         right: 0;
         width: 35%
-      }
-    
-      .play-online-absolute-img img {
-        width: 100%;
-      }
+    }
 
-      #play-online-description,
-      #play-online-heading{
+    .play-online-absolute-img img {
+        width: 100%;
+    }
+
+    #play-online-description,
+    #play-online-heading {
         padding-left: 0;
-      }
+    }
+
+
+    /* Career section related responsive styles for tablet */
+
+    .career-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .career-content,
+    .career-img-container {
+        margin-top: 2rem;
+        width: 100%;
+    }
+
+    .career-content>h2,
+    .career-content>p {
+        text-align: center;
+    }
 }
