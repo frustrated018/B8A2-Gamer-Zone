@@ -708,6 +708,13 @@ footer small {
         text-align: center;
     }
 
+    /* games genre related responsive styles */
+
+    .genre-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+      }
 
     /* Footer section related responsive styles */
 
@@ -728,7 +735,7 @@ footer small {
 }
 
 
-
+/* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ */
 /* Responsive styles for mobiles end here */
 
 /* Responsive styles for medium devices[tablets] */
@@ -899,8 +906,13 @@ footer small {
         text-align: center;
     }
 
-    /* Footer related responsive styles */
+    /* games genre related responsive style for tablet */
 
+    .genre-container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+      }
 
     /* Footer Responsive style starts for tablet*/
 
