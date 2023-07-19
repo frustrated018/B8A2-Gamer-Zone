@@ -262,7 +262,50 @@ header {
     width: 100%;
 }
 
+/* play online section related styles */
+.play-online-section {
+    margin-top: 6rem;
+}
 
+.play-online-container {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.play-online-img-container {
+    width: 85%;
+    text-align: left;
+    position: relative;
+}
+
+.play-online-img {
+    width: 80%;
+}
+
+.play-online-content {
+    text-align: left;
+}
+
+.play-online-absolute-img {
+    position: absolute;
+    bottom: -2rem;
+    right: 0;
+    width: 35%
+}
+
+.play-online-absolute-img img {
+    width: 100%;
+}
+
+#play-online-heading{
+    padding-left: 24%;
+    margin-bottom: 1rem;
+}
+#play-online-description{
+    padding-left: 24%;
+    margin-bottom: 1rem;
+}
 
 
 /* Responsive styles starts here */
