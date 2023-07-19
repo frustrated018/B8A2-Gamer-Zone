@@ -361,18 +361,20 @@ header {
     padding-top: 4rem;
     padding-bottom: 5rem;
     color: white;
-  }
-  
-.logo-container{
+}
+
+.logo-container {
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-.footer-gamer-logo{
+
+.footer-gamer-logo {
     width: 5rem;
     height: 2.3rem;
 }
-  .foot-content {
+
+.foot-content {
     text-align: center;
     width: 50%;
     margin: 0 auto;
@@ -380,38 +382,38 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .white-text {
+}
+
+.white-text {
     color: white;
-  }
-  
-  .footer-title {
+}
+
+.footer-title {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
-  }
-  
-  .footer-logos-container {
+}
+
+.footer-logos-container {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     gap: 1rem;
-  }
-  
-  .footer-logos-container img {
+}
+
+.footer-logos-container img {
     width: 25px;
     height: 25px;
-  }
-  
-  .policies{
+}
+
+.policies {
     display: grid;
     grid-template-columns: repeat(4, max-content);
     gap: .5rem;
-  }
-  
-  footer small {
+}
+
+footer small {
     font-size: .7rem;
-  }
-  
+}
+
 
 
 
@@ -582,7 +584,24 @@ header {
     }
 
 
+    /* Footer section related responsive styles */
+
+    .foot-content {
+        width: 100%;
+    }
+
+    .footer-title,
+    .footer-logos-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .policies {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
+
 
 
 /* Responsive styles for mobiles end here */
@@ -743,4 +762,19 @@ header {
     .career-content>p {
         text-align: center;
     }
+
+    /* Footer related responsive styles */
+
+    
+  /* Footer Responsive style starts for tablet*/
+
+  .footer-conternt {
+    width: 100%;
+  }
+  .footer-title{
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+    gap: 1.2rem;
+  }
+
 }
