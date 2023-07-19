@@ -176,40 +176,91 @@ header {
 
 .gamer-section {
     margin-top: 2rem;
-  }
-  
-  .gamer-container {
+}
+
+.gamer-container {
     display: flex;
     align-items: center;
-  }
-  
-  .gamer-content {
+}
+
+.gamer-content {
     width: 50%;
     text-align: right;
-  }
-  
-  .gamer-img {
+}
+
+.gamer-img {
     width: 90%;
     height: 90%;
     object-fit: contain;
-  }
-  
-  #purpose,
-  #unleash{
+}
+
+#purpose,
+#unleash {
     color: #534C64;
-  }
-  
-  #unleash {
+}
+
+#unleash {
     font-size: 1.5rem;
     font-weight: 700;
-  }
-  
-  .gamer-title,
-  .gamer-description {
-    margin-bottom: 1rem;
-  }
-  
+}
 
+.gamer-title,
+.gamer-description {
+    margin-bottom: 1rem;
+}
+
+/* Funny videos related css will start here */
+
+
+/* Funny videos related css will end here */
+
+/* Instant play section related styles */
+
+/* Play instantly section style starts */
+.play-instant-sectiontion {
+    margin-top: 2rem;
+}
+
+.play-instant-container {
+    display: flex;
+    align-items: center;
+    gap: 7.5rem;
+}
+
+.play-instant-img-container {
+    width: 70%;
+    text-align: right;
+    position: relative;
+}
+
+.play-instant-img {
+    width: 75%;
+}
+
+.play-instant-content {
+    text-align: right;
+}
+
+#play-instant-title {
+    padding-left: 45%;
+    margin-bottom: 1rem;
+}
+
+#play-instant-description {
+    color: #534C64;
+    padding-left: 45%;
+    margin-bottom: 1rem;
+}
+
+.play-instant-absolute-img {
+    position: absolute;
+    bottom: -2rem;
+    width: 35%
+}
+
+.play-instant-absolute-img img {
+    width: 100%;
+}
 
 
 
@@ -269,20 +320,25 @@ header {
     .gamer-container {
         display: flex;
         flex-direction: column;
-      }
-    
-      .gamer-content {
+    }
+
+    .gamer-content {
         width: 100%;
         text-align: center;
-      }
-    
-      .gamer-img {
+    }
+
+    .gamer-img {
         width: 100%;
         height: 90%;
         object-fit: contain;
-      }
+    }
 
-    
+
+    /* Funny videos related css will start here */
+
+
+    /* Funny videos related css will end here */
+
 
 
 }
@@ -340,18 +396,22 @@ header {
     .gamer-container {
         display: flex;
         flex-direction: column;
-      }
-    
-      .gamer-content {
+    }
+
+    .gamer-content {
         width: 100%;
         text-align: center;
-      }
-    
-      .gamer-img {
+    }
+
+    .gamer-img {
         width: 100%;
         height: 90%;
         object-fit: contain;
-      }
+    }
 
+    /* Funny videos related css will start here */
+
+
+    /* Funny videos related css will end here */
 
 }
