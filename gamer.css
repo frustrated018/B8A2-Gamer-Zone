@@ -223,8 +223,8 @@ header {
     display: flex;
     justify-content: space-between;
     text-align: left;
-    margin-right: 3rem;
-    margin-left: 3rem;
+    margin-right: 6.5rem;
+    margin-left: 6.5rem;
 }
 
 .funny-video-card img {
@@ -298,6 +298,7 @@ header {
     width: 70%;
     text-align: right;
     position: relative;
+    margin-top: 3rem;
 }
 
 .play-instant-img {
