@@ -601,7 +601,19 @@ footer small {
 
     /* Funny videos related css will start here */
 
-
+    .funny-video-cards-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+    .card-description{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+      .funny-video-card {
+        width: 100%;
+      }
+    
     /* Funny videos related css will end here */
 
 
@@ -782,16 +794,23 @@ footer small {
         height: 90%;
     }
 
-    /* Funny videos related css will start here */
+    /* Funny videos related css will start here  tablet */
+
+    .funny-video-cards-container {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+      }
+      .card-description{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+      .funny-video-card {
+        width: 100%;
+      }
 
     /* Funny videos related css will end here */
-
-    /* Hover related styles */
-
-
-
-    /* Hover related styles end here */
-
 
     /* Play instantly section related styles for tablet */
     .play-instant-container {
