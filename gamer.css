@@ -80,7 +80,7 @@ body {
 
 .nav-logo-container,
 nav ul,
-.ul-logo-container,
+.list-logo-container,
 .nav-icons {
     display: flex;
     align-items: center;
@@ -93,7 +93,7 @@ nav ul,
 }
 
 .nav-logo-container,
-.ul-logo-container,
+.list-logo-container,
 nav ul,
 .nav-icons {
     gap: 1rem;
@@ -118,3 +118,53 @@ header {
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
 }
 
+
+
+
+/* Responsive styles starts here */
+
+/* Responsive styles for mobile */
+
+@media screen and (max-width: 576px) {
+    .primary-margin {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    /* Nav related styles */
+
+    nav ul,
+    .nav-container,
+    .list-logo-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul {
+        padding-left: 0;
+    }
+}
+
+/* Responsive styles for mobiles end here */
+
+/* Responsive styles for medium devices[tablets] */
+
+@media screen and (min-width:576px) and (max-width: 960px) {
+    .primary-margin {
+      margin-left: 3rem;
+      margin-right: 3rem;
+    }
+  
+    /* Nav related styles */
+
+    
+    .nav-container,
+    .list-logo-container {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    nav ul {
+      padding-left: 0;
+    }
+}
