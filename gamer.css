@@ -353,6 +353,68 @@ header {
     padding-bottom: 2rem;
 }
 
+/* Footer related styles start here */
+
+.footer-section {
+    background: #0B0223;
+    margin-top: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    color: white;
+  }
+  
+.logo-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.footer-gamer-logo{
+    width: 5rem;
+    height: 2.3rem;
+}
+  .foot-content {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .white-text {
+    color: white;
+  }
+  
+  .footer-title {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+  }
+  
+  .footer-logos-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1rem;
+  }
+  
+  .footer-logos-container img {
+    width: 25px;
+    height: 25px;
+  }
+  
+  .policies{
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    gap: .5rem;
+  }
+  
+  footer small {
+    font-size: .7rem;
+  }
+  
+
+
+
 /* Responsive styles starts here */
 
 /* Responsive styles for mobile */
